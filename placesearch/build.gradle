@@ -1,0 +1,54 @@
+apply plugin: 'com.android.library'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'place-search-dialog'
+
+    publishedGroupId = 'com.codemybrainsout'
+    libraryName = 'PlaceSearchDialog'
+    artifact = 'place-search-dialog'
+
+    libraryDescription = 'A plug and play style dialog with city names autocomplete search which uses Google\'s places API for finding results.'
+
+    //siteUrl = ''
+    //gitUrl = ''
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'codemybrainsout'
+    developerName = 'Code My Brains Out'
+    developerEmail = 'codemybrainsout@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'com.android.support:design:24.1.1'
+    compile 'com.google.android.gms:play-services-location:9.0.2'
+}
+
+apply from: 'http://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'http://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

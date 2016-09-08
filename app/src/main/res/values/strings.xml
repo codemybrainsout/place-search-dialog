@@ -1,0 +1,7 @@
+<resources>
+    <string name="location">Location</string>
+    <string name="name">Name</string>
+    <string name="save">SAVE</string>
+    <string name="cmbo">Code My Brains Out</string>
+    <string name="profile">Profile</string>
+</resources>

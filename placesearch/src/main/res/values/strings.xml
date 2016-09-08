@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Place Search Dialog</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="enter_location_hint">Enter location</string>
+
+</resources>

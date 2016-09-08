@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="mt_red">#FF3366</color>
+    <color name="mt_gray">#eeeeee</color>
+    <color name="mt_gray0">#F8F8F9</color>
+    <color name="mt_gray1">#BFC4CA</color>
+    <color name="mt_gray2">#BBBBBE</color>
+    <color name="mt_gray3">#77777D</color>
+    <color name="mt_gray4">#8E959E</color>
+    <color name="mt_gray5">#F8F8F9</color>
+    <color name="mt_gray6">#B6B6B8</color>
+    <color name="mt_black">#1D1D26</color>
+    <color name="mt_green">#50D2C2</color>
+    <color name="mt_purple">#D667CD</color>
+    <color name="mt_yellow">#FCAB53</color>
+
+    <!--Material Colors-->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="secondary_text_transparent_70">#B3727272</color>
+
+</resources>
