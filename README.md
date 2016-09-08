@@ -3,9 +3,7 @@ Place Search Dialog
 ==========
 A place autocomplete search dialog which uses Google's places API for finding results.
 
-![](preview/sample.png) 
-![](preview/dialog.png) 
-![](preview/suggestions.png)
+![](preview/preview.png)
 
 #License
 ```
