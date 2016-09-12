@@ -26,14 +26,14 @@ Add this in your applications AndroidManifest.xml
 ##Adding to your project
 Library is available in maven central.
 
-*Gradle*
+###Gradle
 Just use it as a dependency in your build.gradle file
 
 ```groovy
 compile 'com.codemybrainsout.placesearchdialog:placesearch:1.0.0'
 ```
 
-*Maven*
+###Maven
 Ensure you have android-maven-plugin version that support aar archives and add following dependency:
 
 ```xml
