@@ -23,7 +23,6 @@ Add this in your applications AndroidManifest.xml
 ```
 
 ##Adding to your project
-Library is available in maven central.
 
 ###Gradle
 Just use it as a dependency in your build.gradle file
