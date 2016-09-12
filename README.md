@@ -5,7 +5,7 @@ A place autocomplete search dialog which uses Google's places API for finding re
 
 ![](preview/preview.png)
 
-##Usage
+##How to use
 ```java
 PlaceSearchDialog placeSearchDialog = new PlaceSearchDialog(this, new PlaceSearchDialog.LocationNameListener() {
             @Override
@@ -22,13 +22,16 @@ Add this in your applications AndroidManifest.xml
             android:value="YOUR_API_KEY" />
 ```
 
-##Adding to your project
+##Installation
 
 ###Gradle
-Just use it as a dependency in your build.gradle file
+Just use it as a dependency in your app's build.gradle file
+*(will be available shortly)*
 
 ```groovy
-compile 'com.codemybrainsout.placesearchdialog:placesearch:1.0.0'
+dependencies {
+    compile 'com.codemybrainsout.placesearchdialog:placesearch:1.0.0'
+}
 ```
 
 ###Maven
