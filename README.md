@@ -18,8 +18,7 @@ placeSearchDialog.show();
 
 Add this in your applications AndroidManifest.xml
 ```xml
-<meta-data
-            android:name="com.google.android.geo.API_KEY"
+<meta-data android:name="com.google.android.geo.API_KEY"
             android:value="YOUR_API_KEY" />
 ```
 
@@ -38,10 +37,10 @@ Ensure you have android-maven-plugin version that support aar archives and add f
 
 ```xml
 <dependency>
-<groupId>com.codemybrainsout.placesearchdialog</groupId>
-<artifactId>placesearch</artifactId>
-<version>1.0.0</version>
-<type>pom</type>
+  <groupId>com.codemybrainsout.placesearchdialog</groupId>
+  <artifactId>placesearch</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
 </dependency>
 ```
 
