@@ -26,7 +26,6 @@ Add this in your applications AndroidManifest.xml
 
 ###Gradle
 Just use it as a dependency in your app's build.gradle file
-*(will be available shortly)*
 
 ```groovy
 dependencies {
