@@ -31,12 +31,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showPlacePickerDialog() {
-        PlaceSearchDialog placeSearchDialog = new PlaceSearchDialog(this, new PlaceSearchDialog.LocationNameListener() {
-            @Override
-            public void locationName(String locationName) {
-                location.setText(locationName);
-            }
-        });
+
+        PlaceSearchDialog placeSearchDialog = new PlaceSearchDialog.Builder(this)
+                //.setHeaderImage(R.drawable.dialog_header)
+                .setLocationNameListener(new PlaceSearchDialog.LocationNameListener() {
+                    @Override
+                    public void locationName(String locationName) {
+                        location.setText(locationName);
+                    }
+                })
+                .build();
         placeSearchDialog.show();
     }
 }
