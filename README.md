@@ -5,7 +5,7 @@ A place autocomplete search dialog which uses Google's places API for finding re
 
 ![](preview/preview.png)
 
-The dialog searches from locations all around the world by default. To customize it, set the new location bounds using ```.setLatLngBounds(BOUNDS)```
+By default, The dialog searches for locations all around the world. To customize it, set the new location bounds using ```.setLatLngBounds(BOUNDS)```
 PlaceSearchDialog requires Places API key by Google. You can get it from ![here.](https://developers.google.com/places/android-api/signup)
 
 ##How to use
