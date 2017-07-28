@@ -7,9 +7,9 @@ A place autocomplete search dialog which uses Google's places API for finding re
 
 The dialog searches for locations from all around the world. To customize it, set the new location bounds using ```.setLatLngBounds(BOUNDS)```
 
-##How to use
+## How to use
 
-###Setup
+### Setup
 PlaceSearchDialog requires Places API key by Google. You can get it from [here.](https://developers.google.com/places/android-api/signup)
 
 Use the dialog as it is
@@ -52,9 +52,9 @@ Add this in your applications AndroidManifest.xml
             android:value="YOUR_API_KEY" />
 ```
 
-##Installation
+## Installation
 
-###Gradle
+### Gradle
 Just use it as a dependency in your app's build.gradle file
 
 ```groovy
@@ -63,7 +63,7 @@ dependencies {
 }
 ```
 
-###Maven
+### Maven
 Ensure you have android-maven-plugin version that support aar archives and add following dependency:
 
 ```xml
@@ -75,7 +75,7 @@ Ensure you have android-maven-plugin version that support aar archives and add f
 </dependency>
 ```
 
-##Credits
+## Credits
 
 This project was initiated by **Code My Brains Out**. You can contribute to this project by submitting issues or/and by forking this repo and sending a pull request.
 
@@ -87,7 +87,7 @@ Follow us on:
 
 Author: [Rahul Juneja](https://github.com/ahulr)
 
-#License
+# License
 ```
 Copyright (C) 2016 Code My Brains Out
 
