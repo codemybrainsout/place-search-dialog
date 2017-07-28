@@ -10,7 +10,7 @@ The dialog searches for locations from all around the world. To customize it, se
 ##How to use
 
 ###Setup
-PlaceSearchDialog requires Places API key by Google. You can get it from ![here.](https://developers.google.com/places/android-api/signup)
+PlaceSearchDialog requires Places API key by Google. You can get it from [here.](https://developers.google.com/places/android-api/signup)
 
 Use the dialog as it is
 ```java
